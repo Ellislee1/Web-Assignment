@@ -3,13 +3,17 @@
   font-family: 'Oswald', sans-serif;
 }
 
+/*Page Heading*/
 h1{
   padding-left: 20px;
 }
 
+/*Anchors*/
 a{
   text-decoration: none;
 }
+
+/*Page Header*/
 header{
 padding: 20px;
 height: 50px;
@@ -17,42 +21,54 @@ background-color: #3C3C3C;
 line-height: 50px;
 }
 
+/*Page Footer*/
 footer{
   background-color: #3C3C3C;
-  position:relative;
-  bottom:0;
   width:100%;
   height:70px;
+  /*Places it at the bottom of the page*/
+  position:relative;
+  bottom:0;
 }
 
+/*Footer Text*/
 footer p {
   color: #c4c4c4
 }
 
+/*Nav Bar*/
 nav{
   float: left;
 }
 
+/*main body of text*/
 main {
   width: 1520px;
   margin: 25px auto;
   overflow: auto;
 }
 
+/*Articles*/
 article {
   float: left;
   width: 750px;
   text-align: justify;
   margin: 10px;
 }
+
+/*Headline Article*/
 .headline{
   width: 1500px !important;
   font-size: 25px !important;
 }
+
+/*Headline Article Image*/
 .headline .article-image{
   height: 250px;
   width: 400px;
 }
+
+/*Article Image*/
 .article-image{
   height: 250px;
   width: 400px;
@@ -60,8 +76,12 @@ article {
   float: left;
   padding-right: 10px;
 }
+
+/*Article Text*/
 .article-text{
 }
+
+/*Centre Article*/
 .article-centre{
   margin-left: 0px;
   margin-right: 0px;
@@ -77,6 +97,7 @@ article {
   margin-right: 0px;
 }
 
+/*Logo Settings*/
 .logo{
   padding-right: 50px;
   color: #1380A1;
@@ -152,6 +173,7 @@ article {
   display: block;
 }
 
+/*Links in the footer*/
 .footer-link{
   color: #1380A1;
 }
