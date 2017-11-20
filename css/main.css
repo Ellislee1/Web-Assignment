@@ -47,6 +47,11 @@ article {
 }
 .headline{
   width: 1500px !important;
+  font-size: 25px !important;
+}
+.headline .article-image{
+  height: 250px;
+  width: 400px;
 }
 .article-image{
   height: 250px;
