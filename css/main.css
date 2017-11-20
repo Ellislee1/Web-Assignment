@@ -34,7 +34,8 @@ footer{
 
 /*Footer Text*/
 footer p {
-  color: #c4c4c4
+  color: #c4c4c4;
+  padding-left: 10px;
 }
 
 /*Nav Bar*/
@@ -177,6 +178,13 @@ article {
 /*Links in the footer*/
 .footer-link{
   color: #1380A1;
+}
+
+/*To top link*/
+.to-top{
+  float:right;
+  padding-right: 10px;
+  text-decoration: underline !important;
 }
 
 /*For when the screen becomes too small */
