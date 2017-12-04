@@ -195,7 +195,7 @@ article {
 
 /* Burger label */
 .burger-label {
-  float: left;
+  float: right;
   display: none;
   width: 50px;
   height: 50px;
@@ -203,8 +203,7 @@ article {
   text-align: center;
   font-weight: bold;
   font-size: 22px;
-  float: right;
-  color: #555;
+  color: #fff;
   text-decoration: none;
   border-radius: 4px;
 }
@@ -220,14 +219,16 @@ article {
   background-color: #EEE;
   height: 100%;
   overflow-y: scroll;
+  font-size: 20px;
 }
 .mobile-menu h2 {
   color: #FFF;
+  font-size: 30px;
   margin: 0;
   height: 90px;
   padding: 25px;
   box-sizing: border-box;
-  background-color: #42DDAD;
+  background-color: #3C3C3C;
   line-height: 40px;
   font-weight: normal;
 }
@@ -243,7 +244,7 @@ article {
   text-decoration: none;
 }
 .mobile-menu a:hover {
-  background-color: rgba(0,0,0,0.15);
+  background-color: #FB6F6F;
 }
 .mobile-menu li ul a {
   font-size: 0.8em;
