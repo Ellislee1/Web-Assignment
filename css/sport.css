@@ -44,6 +44,58 @@ nav{
   float: left;
 }
 
+main {
+  width: 1520px;
+  margin: 25px auto;
+  overflow: auto;
+}
+
+/*Articles*/
+article {
+  float: left;
+  width: 750px;
+  text-align: justify;
+  margin: 10px;
+}
+
+/*Headline Article*/
+.headline{
+  width: 1500px !important;
+  font-size: 25px !important;
+}
+
+/*Headline Article Image*/
+.headline .article-image{
+  height: 250px;
+  width: 400px;
+}
+
+/*Article Image*/
+.article-image{
+  height: 250px;
+  width: 400px;
+  align: left;
+  float: left;
+  padding-right: 10px;
+}
+
+
+/*Centre Article*/
+.article-centre{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/* Left column */
+.article-left {
+  margin-left: 0px;
+  clear: both;
+}
+
+/* Right column */
+.article-right {
+  margin-right: 0px;
+}
+
 /*Logo Settings*/
 .logo{
   padding-right: 50px;
@@ -51,6 +103,15 @@ nav{
   font-size: 50px;
   font-weight: bold;
   float: left;
+}
+
+.headline{
+  width: 1500px !important;
+  font-size: 25px !important;
+}
+.headline .article-image{
+  height: 250px;
+  width: 400px;
 }
 
 /* Navbar container */
@@ -320,6 +381,33 @@ nav{
   width: 50%;
   text-align: center;
   float: right;
+}
+
+@media (max-width: 1550px) {
+  main {
+    width: 100%;
+    padding: 0px 25px;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+
+  article {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .article-image{
+    height: 125px;
+    width: 200px;
+    align: left;
+    float: left;
+    padding-right: 10px;
+  }
+
+  .headline{
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 1500px){
