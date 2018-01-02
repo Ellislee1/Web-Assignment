@@ -88,12 +88,13 @@ article {
 /* Left column */
 .article-left {
   margin-left: 0px;
-  clear: both;
+  display: block;
 }
 
 /* Right column */
 .article-right {
   margin-right: 0px;
+  display: block;
 }
 
 /*Logo Settings*/
@@ -370,7 +371,10 @@ article {
 .league-table tr:nth-child(even){
   background-color: #f0f0f0;
 }
-
+.sub-article{
+  display: block;
+  width: 1500;
+}
 .premier, .scottish{
   width: 50%;
   text-align: center;
@@ -381,6 +385,11 @@ article {
   width: 50%;
   text-align: center;
   float: right;
+}
+
+.news-container{
+  width: 1500px;
+  margin: auto;
 }
 
 @media (max-width: 1550px) {
@@ -408,11 +417,13 @@ article {
   .headline{
     width: 100% !important;
   }
-}
-
-@media (max-width: 1500px){
   .fixtures{
     width: 100%;
+  }
+  .box-headlines-container{
+    width: 100%;
+    height: 250px;
+    display: block;
   }
 }
 
