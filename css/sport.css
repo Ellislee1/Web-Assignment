@@ -290,6 +290,44 @@ nav{
   text-align: center;
 }
 
+.fixtures{
+  text-align: center;
+  width: 1500px;
+  overflow: auto;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.league-table{
+  margin: auto;
+  width: 90%;
+}
+
+.league-table th{
+  background-color: #F9E936;
+}
+.league-table tr:nth-child(even){
+  background-color: #f0f0f0;
+}
+
+.premier, .scottish{
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+
+.league-1, .league-2{
+  width: 50%;
+  text-align: center;
+  float: right;
+}
+
+@media (max-width: 1500px){
+  .fixtures{
+    width: 100%;
+  }
+}
+
 @media (max-width: 600px) {
   main {
     width: 100%;
@@ -329,5 +367,9 @@ nav{
   }
   .this-game{
     width:100%;
+  }
+
+  .premier, .league-1, .scottish, .league-2{
+    width: 100%;
   }
 }
