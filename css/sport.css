@@ -18,7 +18,7 @@ a{
 header{
 padding: 20px;
 height: 50px;
-background-color: #3C3C3C;
+background-color: #F9E936;
 line-height: 50px;
 }
 
@@ -44,59 +44,6 @@ nav{
   float: left;
 }
 
-/*main body of text*/
-main {
-  width: 1520px;
-  margin: 25px auto;
-  overflow: auto;
-}
-
-/*Articles*/
-article {
-  float: left;
-  width: 750px;
-  text-align: justify;
-  margin: 10px;
-}
-
-/*Headline Article*/
-.headline{
-  width: 1500px !important;
-  font-size: 25px !important;
-}
-
-/*Headline Article Image*/
-.headline .article-image{
-  height: 250px;
-  width: 400px;
-}
-
-/*Article Image*/
-.article-image{
-  height: 250px;
-  width: 400px;
-  align: left;
-  float: left;
-  padding-right: 10px;
-}
-
-
-/*Centre Article*/
-.article-centre{
-  margin-left: 0px;
-  margin-right: 0px;
-}
-/* Left column */
-.article-left {
-  margin-left: 0px;
-  clear: both;
-}
-
-/* Right column */
-.article-right {
-  margin-right: 0px;
-}
-
 /*Logo Settings*/
 .logo{
   padding-right: 50px;
@@ -109,14 +56,14 @@ article {
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #3C3C3C;
+  background-color: #F9E936;
 }
 
 /* Links inside the navbar */
 .navbar a {
   float: left;
   font-size: 20px;
-  color: white;
+  color: #FFF;
   text-align: center;
   padding: 10px 16px;
   text-decoration: none;
@@ -226,7 +173,7 @@ article {
   height: 90px;
   padding: 25px;
   box-sizing: border-box;
-  background-color: #3C3C3C;
+  background-color: #F9E936;
   line-height: 40px;
   font-weight: normal;
 }
@@ -251,7 +198,7 @@ article {
 
 /* Burger label hover */
 .burger-label:hover {
-  background-color: #444;
+  background-color: #D1C327;
 }
 
 /* Burger label before pseudo element */
@@ -262,148 +209,85 @@ article {
   cursor: pointer;
 }
 
-/*For when the screen becomes too small */
-@media (max-width: 1550px) {
-  main {
-    width: 100%;
-    padding: 0px 25px;
-    box-sizing: border-box;
-    overflow: auto;
-  }
-
-  article {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .article-image{
-    height: 125px;
-    width: 200px;
-    align: left;
-    float: left;
-    padding-right: 10px;
-  }
-
-  .headline{
-    width: 100% !important;
-  }
-}
-
-/*For Mobile Devices*/
-
-/* Slideshow container */
-.newsreel-container {
-  max-width: 750px;
-  position: relative;
+.this-game{
+  width: 500px;
+  height: 200px;
   margin: auto;
+  background-color: #caccce;
+  border-radius: 10px;
+  padding: 10px;
+}
+.home-team{
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color: #FFF;
+  border-radius: 10px;
 }
 
-.reelimages {
-    display: none;
+.home-team h2{
+  background-color: #000;
+  border-radius: 10px;
+  color: #FFF;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: 0px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+.away-team{
+  width: 50%;
+  height: 100%;
+  float: right;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.away-team h2{
+  background-color: #E62333;
+  border-radius: 10px;
+}
+.left-float{
+  width: 50%;
+  float: left;
   text-align: center;
-  padding: 10% 20px;
 }
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.caption {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 12px 0;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+.right-float{
+  width: 50%;
+  float:right;
   text-align: center;
-  background-color: #222;
-  opacity: 50%;
+  color: #FFF;
+}
+.football-logo{
+  padding-top: 5px;
+  width: 100px;
+  vertical-align: middle;
+  padding:5px;
+}
+.score{
+  text-align: center;
+  height: 100%;
+}
+.away-score{
+  text-align: center;
+  height: 100%;
+  color: #fff;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor:pointer;
-  height: 10px;
-  width: 20px;
-  margin: 0 2px;
-  background-color: #bbb;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+.away-score p{
+  position: relative;
+  vertical-align: middle;
+  font-size: 40pt;
+  display: block;
+  margin-top: 20px;
+  color: #fff;
 }
 
-.active, .dot:hover {
-  background-color: #1380A1;
+.score p{
+  position: relative;
+  vertical-align: middle;
+  font-size: 40pt;
+  display: block;
+  margin-top: 20px;
 }
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-.reelimage{
-  width: 100%;
-  overflow: hidden;
-}
-@media (max-width: 1200px) {
-  .prev, .next {
-    padding: 10% 20px;
-    margin-top: 10%;
-  }
-@media (max-width: 1000px) {
-  .prev, .next {
-    padding: 10% 20px;
-    margin-top: 20%;
-
-  }
-}
-@media (max-width: 800px) {
-  .prev, .next {
-    padding: 10% 20px;
-    margin-top: 30%;
-  }
-}
-@media (max-width: 700px) {
-  .prev, .next {
-    padding: 5% 20px;
-    margin-top: 50%;
-  }
+.cent-use{
+  text-align: center;
 }
 
 @media (max-width: 600px) {
@@ -428,10 +312,6 @@ article {
     padding-right: 10px;
   }
 
-  .headline{
-    width: 100% !important;
-  }
-
   .burger:checked + .mobile-menu {
     left: 0;
     transform: translateX(0);
@@ -446,5 +326,8 @@ article {
   .prev, .next {
     padding: 5% 20px;
     margin-top: 70%;
+  }
+  .this-game{
+    width:100%;
   }
 }
