@@ -32,6 +32,9 @@ footer{
   bottom:0;
   text-align: center;
 }
+.footer-404{
+  position: absolute !important;
+}
 
 /*Footer Text*/
 footer p {
