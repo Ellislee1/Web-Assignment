@@ -388,8 +388,38 @@ article {
 }
 
 .news-container{
-  width: 1500px;
+  width: 1200px;
   margin: auto;
+  display: block;
+  overflow: auto;
+}
+
+.news-box{
+  width: 250px;
+  height: 300px;
+  float: left;
+  margin: 0px 25px;
+  overflow: hidden;
+}
+.box-image{
+  width: 230px;
+  height: 150px;
+  margin: 10px 5px 10px 10px;
+}
+.news-box p, h3{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.news-box p{
+  color: #3C3C3C;
+}
+
+.news-container a{
+  color: #3C3C3C;
+}
+
+.news-container a:hover{
+  color: #1380A1;
 }
 
 @media (max-width: 1550px) {
@@ -420,10 +450,9 @@ article {
   .fixtures{
     width: 100%;
   }
-  .box-headlines-container{
+  .news-container{
     width: 100%;
-    height: 250px;
-    display: block;
+    overflow: auto;
   }
 }
 
