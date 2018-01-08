@@ -96,7 +96,7 @@ article {
   display: block;
   margin: auto;
   position: relative;
-  background-color: #333;
+  background-color: #3C3C3C;
 }
 .image-float{
   float: left;
@@ -109,7 +109,17 @@ article {
   background-color: red;
   float: left;
   display: none;
+  overflow: hide;
 }
+.image-float a{
+  height: 0;
+}
+
+.reel-image img{
+  width: 600px;
+  height: 400px;
+}
+
 .story-float{
   width: 250px;
   height: 100%;
@@ -123,13 +133,11 @@ article {
 }
 .reel-caption{
   width: 600px;
-  height: 40px;
   background-color: #3c3c3c;
   color: #F3F3F3;
   float: left;
   text-align: center;
-  padding-top: 10px;
-  display: none;
+  margin-top: 5px
 }
 .story-headline p{
   margin-left: 10px;
