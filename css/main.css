@@ -108,6 +108,7 @@ article {
   height: 400px;
   background-color: red;
   float: left;
+  display: none;
 }
 .story-float{
   width: 250px;
@@ -118,15 +119,28 @@ article {
 .story-headline{
   height: 111px;
   width: 100%;
-  background-color: green;
+  background-color: #3C3C3C;
 }
 .reel-caption{
   width: 600px;
-  height: 50px;
-  background-color: yellow;
+  height: 40px;
+  background-color: #3c3c3c;
+  color: #F3F3F3;
   float: left;
+  text-align: center;
+  padding-top: 10px;
+  display: none;
 }
-/*reel end*/
+.story-headline p{
+  margin-left: 10px;
+}
+.story-headline a{
+  color: #F3F3F3;
+}
+.story-headline a:hover{
+  color: #1380A1;
+}
+/reel end*/
 
 /*Centre Article*/
 .article-centre{
