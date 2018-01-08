@@ -21,3 +21,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   points[slideIndex-1].className += " active";
 }
+// JS adapted from https://www.w3schools.com/howto/howto_js_slideshow.asp//
