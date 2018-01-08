@@ -219,6 +219,7 @@ article {
 .mobile-menu {
   width: 250px;
   position: fixed;
+  z-index: 100;
   top: 0px;
   left: 0px;
   transform: translateX(-250px);
@@ -318,9 +319,8 @@ article {
 }
 .football-logo{
   padding-top: 5px;
-  width: 100px;
+  width: 80%;
   vertical-align: middle;
-  padding:5px;
 }
 .score{
   text-align: center;
@@ -499,5 +499,17 @@ article {
 
   .premier, .league-1, .scottish, .league-2{
     width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .left-float p ,.right-float p{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .left-float p ,.right-float p{
+    font-size: 10px;
   }
 }

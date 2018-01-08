@@ -9,6 +9,10 @@ h1{
   padding-left: 20px;
 }
 
+h4{
+  padding-left: 20px;
+}
+
 /*Anchors*/
 a{
   text-decoration: none;
@@ -213,6 +217,7 @@ article {
 .mobile-menu {
   width: 250px;
   position: fixed;
+  z-index: 100px;
   top: 0px;
   left: 0px;
   transform: translateX(-250px);
@@ -293,98 +298,8 @@ article {
   }
 }
 
-/*For Mobile Devices*/
 
-/* Slideshow container */
-.newsreel-container {
-  max-width: 750px;
-  position: relative;
-  margin: auto;
-}
-
-.reelimages {
-    display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: 0px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  text-align: center;
-  padding: 10% 20px;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.caption {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 12px 0;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-  background-color: #222;
-  opacity: 50%;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor:pointer;
-  height: 10px;
-  width: 20px;
-  margin: 0 2px;
-  background-color: #bbb;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #1380A1;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-.reelimage{
-  width: 100%;
-  overflow: hidden;
-}
-
+/*Settings for the news container*/
 .news-container{
   width: 1200px;
   margin: auto;
@@ -420,6 +335,17 @@ article {
   color: #1380A1;
 }
 
+/*Story Settings*/
+.story{
+  width: 1200px;
+  margin: auto;
+  overflow: hide;
+}
+.story p{
+  padding-left: 20px;
+}
+
+
 @media (max-width: 1500px) {
   .news-container{
     width: 100%;
@@ -428,29 +354,15 @@ article {
 }
 
 @media (max-width: 1200px) {
-  .prev, .next {
-    padding: 10% 20px;
-    margin-top: 10%;
+  .story{
+    width: 100%;
   }
+}
 
 
 @media (max-width: 1000px) {
-  .prev, .next {
-    padding: 10% 20px;
-    margin-top: 20%;
-
-  }
-}
-@media (max-width: 800px) {
-  .prev, .next {
-    padding: 10% 20px;
-    margin-top: 30%;
-  }
-}
-@media (max-width: 700px) {
-  .prev, .next {
-    padding: 5% 20px;
-    margin-top: 50%;
+  .story h1{
+    text-align: center;
   }
 }
 
@@ -478,6 +390,7 @@ article {
 
   .headline{
     width: 100% !important;
+    display: block;
   }
 
   .burger:checked + .mobile-menu {
@@ -490,9 +403,5 @@ article {
   }
   .burger-label {
     display: block;
-  }
-  .prev, .next {
-    padding: 5% 20px;
-    margin-top: 70%;
   }
 }
