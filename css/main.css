@@ -118,7 +118,7 @@ article {
 .story-headline{
   height: 111px;
   width: 100%;
-  background-color: green;
+  background-color: #3C3C3C;
 }
 .reel-caption{
   width: 600px;
@@ -126,7 +126,16 @@ article {
   background-color: yellow;
   float: left;
 }
-/*reel end*/
+.story-headline p{
+  margin-left: 10px;
+}
+.story-headline a{
+  color: #F3F3F3;
+}
+.story-headline a:hover{
+  color: #1380A1;
+}
+/reel end*/
 
 /*Centre Article*/
 .article-centre{
