@@ -10,7 +10,7 @@
     <script src="../js/pageScripts.js"></script>
   </head>
 
-  <body>
+  <body onload="showSlides(1)">
     <header>
       <a class="logo" href="#">NFN</a>
       <!-- This fixed the issue of the dropdown and nav bar
@@ -110,6 +110,64 @@
         </div>
         <a href="putin.html"><u>Read More</u></a>
       </article>
+
+      <!--News Reel --->
+      <div class="news-reel">
+        <div class="image-float">
+
+          <div class="reel-image">
+            <a href="#">
+              <img src="../media/images/Greece Strikes Gold.jpg">
+              <p class="reel-caption">Greece to Become Richest Country After Finding Lost Oil Field</p>
+            </a>
+          </div>
+
+        <div class="reel-image">
+          <a href="#">
+            <img src="../media/images/HM Lorde.jpg">
+            <p class="reel-caption">Lorde to Become Member of the Royal Family After Petition Passes</p>
+          </a>
+        </div>
+
+        <div class="reel-image">
+          <a href="#">
+            <img src="../media/images/PutinRifel.jpg">
+            <p class="reel-caption">Putin States he Will Defend Russia Even if No-One Else Will</p>
+          </a>
+        </div>
+
+        <div class="reel-image">
+          <a href="#">
+            <img src="../media/images/trumphands.jpg">
+            <p class="reel-caption">Whitehouse Confirms 'Trump Has Small Hands' After Press Conference</p>
+          </a>
+        </div>
+        </div>
+
+        <div class="story-float">
+
+            <div class="story-headline" onclick="currentSlide(1)">
+                <h3>Greece to Become Richest Country in EU After Finding Lost Oil Field</h3>
+                <p>Read More...</p>
+            </div>
+
+          <hr />
+          <div class="story-headline"  onclick="currentSlide(2)">
+              <h3>Lorde to Become Member of the Royal Family After Petition Passes</h3>
+              <p>Read More...</p>
+          </div>
+          <hr />
+          <div class="story-headline" onclick="currentSlide(3)">
+              <h3>Putin States he Will Defend Russia, Even if No-One Else Will</h3>
+              <p>Read More...</p>
+          </div>
+          <hr />
+          <div class="story-headline" onclick="currentSlide(4)">
+              <h3>Whitehouse Confirms 'Trump Has Small Hands' After Press Conference</h3>
+              <p>Read More...</p>
+          </div>
+        </div>
+      </div>
 
       <!-- Sub Articles -->
       <div class="sub-article">

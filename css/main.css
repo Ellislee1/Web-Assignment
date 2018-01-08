@@ -60,7 +60,6 @@ main {
 
 /*Articles*/
 article {
-  float: left;
   width: 750px;
   text-align: justify;
   margin: 10px;
@@ -70,6 +69,9 @@ article {
 .headline{
   width: 1500px !important;
   font-size: 25px !important;
+  height: auto;
+  position: relative;
+  padding-bottom: 5px;
 }
 
 /*Headline Article Image*/
@@ -87,6 +89,67 @@ article {
   padding-right: 10px;
 }
 
+/*News Reel*/
+.news-reel{
+  width: 850px;
+  height: 450px;
+  display: block;
+  margin: auto;
+  position: relative;
+  background-color: #3C3C3C;
+}
+.image-float{
+  float: left;
+  width: 600px;
+  height: 100%;
+}
+.reel-image{
+  width: 600px;
+  height: 400px;
+  background-color: red;
+  float: left;
+  display: none;
+  overflow: hide;
+}
+.image-float a{
+  height: 0;
+}
+
+.reel-image img{
+  width: 600px;
+  height: 400px;
+}
+
+.story-float{
+  width: 250px;
+  height: 100%;
+  background-color: blue;
+  float: right;
+}
+.story-headline{
+  height: 111px;
+  width: 100%;
+  background-color: #3C3C3C;
+}
+.reel-caption{
+  width: 600px;
+  background-color: #3c3c3c;
+  color: #F3F3F3;
+  float: left;
+  text-align: center;
+  margin-top: 5px
+}
+.story-headline p{
+  margin-left: 10px;
+}
+.story-headline{
+  color: #F3F3F3;
+}
+.story-headline:hover{
+  color: #1380A1;
+  cursor: pointer;
+}
+/reel end*/
 
 /*Centre Article*/
 .article-centre{
@@ -96,12 +159,14 @@ article {
 /* Left column */
 .article-left {
   margin-left: 0px;
+  float: left;
   clear: both;
 }
 
 /* Right column */
 .article-right {
   margin-right: 0px;
+  float: right;
 }
 
 /*Logo Settings*/
@@ -281,8 +346,8 @@ article {
 
   article {
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    margin:auto;
+    display: block;
   }
 
   .article-image{
@@ -295,6 +360,8 @@ article {
 
   .headline{
     width: 100% !important;
+    height: auto;
+    padding-bottom: 5px;
   }
 }
 
