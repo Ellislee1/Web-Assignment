@@ -142,11 +142,12 @@ article {
 .story-headline p{
   margin-left: 10px;
 }
-.story-headline a{
+.story-headline{
   color: #F3F3F3;
 }
-.story-headline a:hover{
+.story-headline:hover{
   color: #1380A1;
+  cursor: pointer;
 }
 /reel end*/
 
