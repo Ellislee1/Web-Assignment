@@ -222,7 +222,7 @@ article {
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 1000;
 }
 
 /* Links inside the dropdown */
@@ -282,14 +282,14 @@ article {
 .mobile-menu {
   width: 250px;
   position: fixed;
-  z-index: 1000px;
+  z-index: 10000px;
   top: 0px;
   left: 0px;
   transform: translateX(-250px);
   transition: transform .25s ease-in-out;
   background-color: #EEE;
   height: 100%;
-  overflow: hidden;
+  overflow-y: scroll;
   font-size: 20px;
 }
 .mobile-menu h2 {
@@ -467,6 +467,7 @@ figcaption{
 
   .headline{
     width: 100% !important;
+    display: block;
   }
 
   .burger:checked + .mobile-menu {
