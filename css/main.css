@@ -421,7 +421,9 @@ figcaption{
   font-style: italic;
   width: inherit;
 }
-
+.reel-replace{
+  display: none;
+}
 
 @media (max-width: 1500px) {
   .news-container{
@@ -436,6 +438,15 @@ figcaption{
   }
 }
 
+
+@media (max-width: 900px) {
+  .news-reel{
+    display: none;
+  }
+  .reel-replace{
+    display: block;
+  }
+}
 
 @media (max-width: 1000px) {
   .story h1{
@@ -479,5 +490,11 @@ figcaption{
   }
   .burger-label {
     display: block;
+  }
+}
+@media (max-width: 500px) {
+  .article-image{
+    max-width: 100%;
+    height: auto;
   }
 }
