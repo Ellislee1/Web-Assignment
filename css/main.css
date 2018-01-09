@@ -497,4 +497,9 @@ figcaption{
     max-width: 100%;
     height: auto;
   }
+  .story-image-right{
+    margin: auto;
+    display: block;
+    float: none;
+  }
 }
