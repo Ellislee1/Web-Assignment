@@ -414,12 +414,24 @@ article {
 .story-image-right{
   float: right;
   width: 300px;
+  max-height: 400px;
+  margin: 5px 10px 10px 10px;
+}
+.story-image-left{
+  float: left;
+  width: 300px;
+  max-height: 400px;
+  margin: 5px 10px 10px 10px;
+}
+.story-image-right img, .story-image-left img{
+  max-width: 300px;
 }
 figcaption{
   text-align: center;
   font-size: 14px;
   font-style: italic;
   width: inherit;
+  margin-bottom: 5px;
 }
 .reel-replace{
   display: none;
@@ -497,7 +509,7 @@ figcaption{
     max-width: 100%;
     height: auto;
   }
-  .story-image-right{
+  .story-image-right, .story-image-left{
     margin: auto;
     display: block;
     float: none;
