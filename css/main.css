@@ -33,7 +33,7 @@ footer{
   height:70px;
   /*Places it at the bottom of the page*/
   position:relative;
-  bottom:0;
+  bottom: 0px;
   text-align: center;
 }
 .footer-404{
