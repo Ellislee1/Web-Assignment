@@ -55,7 +55,7 @@ nav{
 main {
   width: 1520px;
   margin: 25px auto;
-  overflow: auto;
+  overflow: hidden;
 }
 
 /*Articles*/
@@ -371,13 +371,13 @@ article {
   width: 1200px;
   margin: auto;
   display: block;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .news-box{
   width: 250px;
   height: 300px;
-  float: left;
+  float: left;mai
   margin: 0px 25px;
   overflow: hidden;
 }
@@ -448,7 +448,7 @@ figcaption{
     width: 100%;
     padding: 0px 25px;
     box-sizing: border-box;
-    overflow: auto;
+    overflow: hidden;
   }
 
   article {
