@@ -17,6 +17,7 @@ h4{
 a{
   text-decoration: none;
 }
+main{overflow-x: hidden;}
 
 /*Page Header*/
 header{
@@ -368,7 +369,7 @@ article {
 
 /*Settings for the news container*/
 .news-container{
-  width: 1200px;
+  width: 1000px;
   margin: auto;
   display: block;
   overflow: hidden;
@@ -406,7 +407,7 @@ article {
 .story{
   width: 1200px;
   margin: auto;
-  overflow: hide;
+  overflow-x: hide;
 }
 .story p{
   padding-left: 20px;
@@ -437,14 +438,14 @@ figcaption{
   display: none;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1100px) {
   .news-container{
     width: 100%;
     overflow: auto;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .story{
     width: 100%;
   }
