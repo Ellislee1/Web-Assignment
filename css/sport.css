@@ -441,7 +441,7 @@ article {
     width: 200px;
     align: left;
     float: left;
-    padding-right: 10px;
+    margin: auto;
   }
 
   .headline{
@@ -502,14 +502,21 @@ article {
   }
 }
 
-@media (max-width: 500px) {
-  .left-float p ,.right-float p{
-    font-size: 14px;
+@media (max-width: 655px) {
+  .premier, .league-1, .scottish, .league-2{
+    width: 100%;
+  }
+  .league-table{
+    width:100%
   }
 }
-
 @media (max-width: 500px) {
   .left-float p ,.right-float p{
     font-size: 10px;
+  }
+  .headline .article-image{
+    max-height: 300px;
+    width: 100%;
+    margin: auto;
   }
 }
