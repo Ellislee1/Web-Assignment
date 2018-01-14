@@ -1,6 +1,6 @@
 // If this page has an active slideshow
 if(document.querySelector('.reel-image') !== null) {
-  
+
   var slideIndex = 1;
   showSlides(slideIndex);
 
@@ -27,4 +27,15 @@ if(document.querySelector('.reel-image') !== null) {
   }
   // JS adapted from https://www.w3schools.com/howto/howto_js_slideshow.asp//
 
+
+//api from https://newsapi.org/docs/get-started for live news
 }
+
+var url = 'https://newsapi.org/v2/top-headlines?' +
+          'sources=bbc-news&' +
+          'apiKey=9d99f5de073945798663338b6affe79f';
+var req = new Request(url);
+fetch(req)
+    .then(function(response) {
+        console.log(response.json());
+    })
