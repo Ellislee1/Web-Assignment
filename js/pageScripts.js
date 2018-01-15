@@ -21,7 +21,6 @@ if(document.querySelector('.reel-image') !== null) {
     for (i = 0; i < points.length; i++) {
         points[i].className = points[i].className.replace(" active", "");
     }
-
     slides[slideIndex-1].style.display = "block";
     points[slideIndex-1].className += " active";
   }

@@ -10,7 +10,7 @@
     <script defer src="../js/pageScripts.js"></script>
   </head>
 
-  <body onload="showSlides(1)">
+  <body>
     <header>
       <a class="logo" href="index.html">NFN</a>
       <!-- This fixed the issue of the dropdown and nav bar
@@ -97,9 +97,44 @@
     <h1>About Us</h1>
 
     <main>
+      <h2>Who we are</h2>
+      <p>NFN (The Not Fake News Group) is published to allow the public access to an unreliable news source with regularly updated stories. We aim to provide amusing fake news stories based on the news today. NFN news stories are 100% fake and are not recommended as a reliable or accurate source
+      of information, are facts are not checked and sources rarely cited but the news delivered is designed with public entertainment in mind.<br /> With the growing regulation of the media, actual, once credible, news sources are becomming less reliable with stories twisted and warped
+      to meet the views and ideals of the people of interest. We have cut out the middle man and delibertly published fake news so you can be sure that the news you're getting is of top quality, and while we cant be trusted on our actual stories we can be trusted that our stories are fake
+      and of the highest quality of unrealibleness.</p>
+      <br />
+      <h2>Give us Some Feedback</h2>
+      <p>In hopes of providing improved services please give us some feedback!</p>
+      <div class="feedback">
+        <label for="title">Title</label>
+        <select class="" name="title">
+          <option value="mr">Mr</option>
+          <option value="mrs">Mrs</option>
+          <option value="miss">Miss</option>
+          <option value="ms">Ms</option>
+          <option value="dr">Dr</option>
+          <option value="prof">Prof</option>
+        </select>
+        <label for="firstname">Firstname</label>
+        <input type="text" name="firstname" maxlength="25">
+        <label for="surname">Surname</label>
+        <input type="text" name="surname" maxlength="25">
+        <label for="gender">Gender</label>
+        <select class="" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+        <label for="email">Email Address</label>
+        <input type="text" name="email" maxlength="50" class="email">
+        <br />
+        <label for="feedback">Feedback</label>
+        <textarea name="feedback" rows="8" cols="80"></textarea>
+        <button type="submit" name="submit">Submit Feedback</button>
+      </div>
     </main>
 
-    <footer>
+    <footer class="footer-bottom">
       <p><b>NFN</b> - <i>'Not Fake news Group' </i>  is published to deliver the fakest of news
       to the public domain through the web medium.</p>
       <p><a class="footer-link" href="index.html">Home</a> | <a class="footer-link" href="404.html">UK</a> | <a class="footer-link" href="sport.html">Sport</a> | <a class="footer-link" href="aboutUs.html">About Us</a></p>
