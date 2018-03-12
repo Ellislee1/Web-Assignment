@@ -358,6 +358,9 @@ article {
     display: block;
   }
 
+  .article-text{
+  margin-bottom: 15px;
+  }
   .article-image{
     height: 125px;
     width: 200px;
@@ -373,6 +376,16 @@ article {
   }
 }
 
+.read-button{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #3C3C3C;
+  color: #FFF;
+}
+.read-button:hover{
+  background-color: #FB6F6F;
+}
 
 /*Settings for the news container*/
 .news-container{
