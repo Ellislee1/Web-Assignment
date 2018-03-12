@@ -34,7 +34,7 @@ footer{
   height:70px;
   /*Places it at the bottom of the page*/
   position:relative;
-  bottom: 0px;
+  bottom: 0;
   text-align: center;
 }
 .footer-bottom{
@@ -290,12 +290,15 @@ article {
   transition: transform .25s ease-in-out;
   background-color: #EEE;
   height: 100%;
-  overflow: hidden;
   font-size: 20px;
+}
+.mob-list{
+  overflow-y: scroll;
+  height: 100%;
 }
 .mobile-menu h2 {
   color: #FFF;
-  font-size: 30px;
+  font-size: 25px;
   margin: 0;
   height: 90px;
   padding: 25px;
@@ -304,6 +307,9 @@ article {
   line-height: 40px;
   font-weight: normal;
 }
+.mobile-menu li{
+  height: 30pt;
+}
 .mobile-menu ul {
   list-style-type: none;
   margin: 0px;
@@ -311,6 +317,7 @@ article {
 }
 .mobile-menu a {
   display: block;
+  height: pt;
   padding: 5px 25px;
   color: #555;
   text-decoration: none;
@@ -401,6 +408,25 @@ article {
 
 .news-container a:hover{
   color: #1380A1;
+}
+
+/*feedback form*/
+.feedform{
+  width: 75%;
+  height: auto;
+  display: block;
+  /*background-color: black;*/
+}
+.checkbx{
+  width: 25px;
+}
+.txtcomment{
+  width: 75%;
+  height: 100px;
+  margin-top: 10px;
+}
+.btnsubmit{
+  margin-top: 10px;
 }
 
 /*Story Settings*/
@@ -501,7 +527,7 @@ textarea{
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
   main {
     width: 100%;
     padding: 0px 25px;

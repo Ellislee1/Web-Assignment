@@ -226,8 +226,11 @@ article {
   transition: transform .25s ease-in-out;
   background-color: #EEE;
   height: 100%;
-  overflow-y: scroll;
   font-size: 20px;
+}
+.mob-list{
+  overflow-y: scroll;
+  height: 85%;
 }
 .mobile-menu h2 {
   color: #FFF;
