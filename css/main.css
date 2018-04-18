@@ -82,6 +82,11 @@ article {
   width: 400px;
 }
 
+.sub-article{
+  margin-bottom: 15px;
+  height: auto;
+}
+
 /*Article Image*/
 .article-image{
   height: 250px;
@@ -376,9 +381,9 @@ article {
   }
 }
 
-.read-button{
-  margin: 0px,10px;
-  padding: 5px;
+.read-button{;
+  margin-top: 5px;
+  padding: 4px;
   border-radius: 4px;
   background-color: #3C3C3C;
   color: #FFF;
@@ -387,6 +392,9 @@ article {
   background-color: #FB6F6F;
 }
 
+.whiteSpace{
+  margin: 10px;
+}
 /*Settings for the news container*/
 .news-container{
   width: 1000px;
