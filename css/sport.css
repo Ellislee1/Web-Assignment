@@ -70,6 +70,9 @@ article {
   width: 400px;
 }
 
+.article-text{
+  margin-bottom: 15px;
+}
 /*Article Image*/
 .article-image{
   height: 250px;
@@ -79,6 +82,16 @@ article {
   padding-right: 10px;
 }
 
+.read-button{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #3C3C3C;
+  color: #FFF;
+}
+.read-button:hover{
+  background-color: #FB6F6F;
+}
 
 /*Centre Article*/
 .article-centre{
