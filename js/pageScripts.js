@@ -26,3 +26,8 @@ if(document.querySelector('.reel-image') !== null) {
   }
   // JS adapted from https://www.w3schools.com/howto/howto_js_slideshow.asp//
 }
+
+function submitButtton(){
+  alert("Your feedback has been submitted. \nThank you for taking the time to send us feedback.");
+  document.getElementById('feedbackform').reset();
+}
