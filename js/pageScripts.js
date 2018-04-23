@@ -1,6 +1,7 @@
 // If this page has an active slideshow
 if(document.querySelector('.reel-image') !== null) {
 
+ // JS adapted from W3Schools//
   var slideIndex = 1;
   showSlides(slideIndex);
 
@@ -24,8 +25,8 @@ if(document.querySelector('.reel-image') !== null) {
     slides[slideIndex-1].style.display = "block";
     points[slideIndex-1].className += " active";
   }
+//End of cited code//
 
-  // JS adapted from https://www.w3schools.com/howto/howto_js_slideshow.asp//
 }
 
 function submitButtton(){
